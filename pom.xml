@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>uk.org.lidalia</groupId>
+  <artifactId>jul-to-slf4j-config</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+
+  <name>java.util.logging to SLF4J Configuration</name>
+  <description>Packages a logging.properties that simply registers the SLF4JBridgeHandler as the sole handler,
+  effectively redirecting all j.u.l log statements to SLF4J.  See http://www.slf4j.org/legacy.html#jul-to-slf4j
+  for further details.</description>
+  <url>http://projects.lidalia.org.uk/jul-to-slf4j-config</url>
+  <licenses>
+    <license>
+      <name>MIT X11 License</name>
+      <url>https://github.com/Mahoney/lidalia-parent/raw/master/X11-LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jul-to-slf4j</artifactId>
+      <version>1.6.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+
+</project>
