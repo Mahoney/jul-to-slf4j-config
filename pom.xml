@@ -10,7 +10,7 @@
 
   <groupId>uk.org.lidalia</groupId>
   <artifactId>jul-to-slf4j-config</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <scm>
     <connection>scm:git:git@github.com:Mahoney/jul-to-slf4j-config.git</connection>
